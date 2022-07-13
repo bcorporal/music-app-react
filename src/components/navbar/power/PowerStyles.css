@@ -1,0 +1,38 @@
+h1 {
+    color: greenyellow;
+}
+
+.Power {
+    width: 100%;
+    height: 100vh;
+    background: url('/src/assets/music.jpg') no-repeat center center/cover;
+}
+
+.Power .container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Power .top {
+    margin-top: 7rem;
+}
+
+
+.Power .bottom {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width:540px) {
+    .Power .container .bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+}

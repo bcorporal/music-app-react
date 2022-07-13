@@ -1,10 +1,14 @@
-import './App.css';
+import React from 'react';
+import Navbar from './components/navbar/Navbar';
+import Power from './components/navbar/power/Power';
+
 
 function App() {
   return (
-    <div className="App">
-  <h1>hi</h1>
-    </div>
+    <>
+    <Navbar />
+    <Power />
+    </>
   );
 }
 
