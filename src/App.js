@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
-import Power from './components/navbar/power/Power';
+import Power from './components/power/Power';
 
 
 function App() {
