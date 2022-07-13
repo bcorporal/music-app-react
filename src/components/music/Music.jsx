@@ -1,12 +1,12 @@
 import React from 'react'
-import './ThrottleStyles.css'
+import './MusicStyles.css'
 
-const Throttle = () => {
+const Music = () => {
   return (
-    <div name='throttle' className='throttle'>
+    <div name='music' className='music'>
     <div className='container'>
     <div className='top'>
-    <h1>MUSIC IS LIFE</h1>
+    <h1>MUSIC ON DEMAND</h1>
     </div>
     <div className='bottom'>
     <button className='btn btn-dark'>Music</button>
@@ -17,4 +17,4 @@ const Throttle = () => {
   )
 }
 
-export default Throttle
+export default Music

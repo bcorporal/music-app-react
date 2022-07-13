@@ -1,8 +1,8 @@
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
 import Home from './components/home/Home';
-import Speed from './components/speed/Speed';
-import Throttle from './components/throttle/Throttle';
+import Music from './components/music/Music';
+import Festivals from './components/festivals/Festivals';
 import Contact from './components/contact/Contact';
 
 
@@ -12,8 +12,8 @@ function App() {
     <>
     <Navbar />
     <Home />
-    <Speed />
-    <Throttle />
+    <Music />
+    <Festivals />
     <Contact />
     </>
   );

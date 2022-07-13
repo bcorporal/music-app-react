@@ -43,8 +43,8 @@
 
 
 .contact form input, textarea {
-    margin: .5rem;
-    padding: .7rem 1.5rem;
+    margin: 0rem;
+    padding: .6rem 1.5rem;
     background: rgba(255, 255, 255, .7);
     border: none;
     border-radius: 25px;

@@ -1,5 +1,16 @@
 h1 {
     color: greenyellow;
+    font-size: 60px;
+    margin-top: 100px;
+ 
+}
+
+h2 {
+    color: greenyellow;
+    font-size: 60px;
+    justify-content: center;
+  
+ 
 }
 
 .Home {
