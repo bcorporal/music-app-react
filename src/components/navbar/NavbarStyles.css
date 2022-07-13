@@ -104,9 +104,12 @@
 
     .nav-menu .social-icons {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin: 1rem;
+        color: white;
+    
     }
+
 
     .nav-menu .icons {
         color: #f8f8f8cc;

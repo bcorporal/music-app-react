@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa';
-import {GiCarWheel} from 'react-icons/gi';
 import {FaInstagram, FaFacebook} from 'react-icons/fa';
 import { Link } from 'react-scroll'
 
@@ -41,7 +40,6 @@ const Navbar = () => {
     <div className='social-icons'>
     <FaFacebook className='icon' />
     <FaInstagram className='icon' />
-    <GiCarWheel className='icon' />
     </div>
     </div>
 
