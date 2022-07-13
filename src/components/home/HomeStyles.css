@@ -41,6 +41,27 @@ h2 {
     margin-bottom: 4rem;
 }
 
+input {
+    width: 100%;
+    position: relative;
+    height: 5vh;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width:540px) {
     .Home .container .bottom {
         flex-direction: column;
