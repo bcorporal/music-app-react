@@ -1,13 +1,20 @@
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
-import Power from './components/power/Power';
+import Home from './components/home/Home';
+import Speed from './components/speed/Speed';
+import Throttle from './components/throttle/Throttle';
+import Contact from './components/contact/Contact';
+
 
 
 function App() {
   return (
     <>
     <Navbar />
-    <Power />
+    <Home />
+    <Speed />
+    <Throttle />
+    <Contact />
     </>
   );
 }

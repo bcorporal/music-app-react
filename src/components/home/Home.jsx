@@ -1,12 +1,12 @@
 import React from 'react'
-import './SpeedStyles.css'
+import './HomeStyles.css'
 
-const Speed = () => {
+const Home = () => {
   return (
-    <div name='speed' className='speed'>
+    <div name='home' className='Home'>
     <div className='container'>
     <div className='top'>
-    <h1>ON DEMAND</h1>
+    <h1>MUSIC IS LIFE</h1>
     </div>
     <div className='bottom'>
     <button className='btn btn-dark'>Music</button>
@@ -17,4 +17,4 @@ const Speed = () => {
   )
 }
 
-export default Speed
+export default Home

@@ -2,13 +2,13 @@ h1 {
     color: greenyellow;
 }
 
-.Power {
+.throttle {
     width: 100%;
     height: 100vh;
-    background: url('/src/assets/music.jpg') no-repeat center center/cover;
+    background: url('/src/assets/music4.jpg') no-repeat center center/cover;
 }
 
-.Power .container {
+.throttle .container {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -17,12 +17,12 @@ h1 {
     align-items: center;
 }
 
-.Power .top {
+.throttle .top {
     margin-top: 7rem;
 }
 
 
-.Power .bottom {
+.throttle .bottom {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -31,7 +31,7 @@ h1 {
 }
 
 @media screen and (max-width:540px) {
-    .Power .container .bottom {
+    .throttle .container .bottom {
         flex-direction: column;
         align-items: center;
     }

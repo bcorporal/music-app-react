@@ -1,12 +1,12 @@
 import React from 'react'
-import './PowerStyles.css'
+import './ThrottleStyles.css'
 
-const Power = () => {
+const Throttle = () => {
   return (
-    <div className='Power'>
+    <div name='throttle' className='throttle'>
     <div className='container'>
     <div className='top'>
-    <h1>FESTIVALS</h1>
+    <h1>MUSIC IS LIFE</h1>
     </div>
     <div className='bottom'>
     <button className='btn btn-dark'>Music</button>
@@ -17,4 +17,4 @@ const Power = () => {
   )
 }
 
-export default Power
+export default Throttle

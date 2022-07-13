@@ -2,6 +2,8 @@ import React, {useState} from 'react'
 import {FaBars, FaTimes} from 'react-icons/fa';
 import {GiCarWheel} from 'react-icons/gi';
 import {FaInstagram, FaFacebook} from 'react-icons/fa';
+import { Link } from 'react-scroll'
+
 import './NavbarStyles.css'
 
 const Navbar = () => {
@@ -21,11 +23,13 @@ const Navbar = () => {
     </div>
 
     <ul className={nav ? 'nav-menu active' : 'nav-menu' }>
-    <li><a href="/">Music</a></li>
-    <li><a href="/">Music</a></li>
-    <li><a href="/">Music</a></li>
-    <li><a href="/">Music</a></li>
-    <li><a href="/">Music</a></li>
+    <li><a href="/"><Link activeClass="active" to="home" spy={true} smooth={true} duration={500}>Home</Link></a></li>
+    <li><a href="/"><Link activeClass="active" to="speed" spy={true} smooth={true} duration={500}>Speed</Link></a></li>
+    <li><a href="/"><Link activeClass="active" to="throttle" spy={true} smooth={true} duration={500}>Throttle</Link></a></li>
+    <li><a href="/"><Link activeClass="active" to="contact" spy={true} smooth={true} duration={500}>Contact</Link></a></li>
+
+    
+
 
     <div className="mobile-menu">
     <button>shop</button>
