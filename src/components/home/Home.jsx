@@ -1,7 +1,6 @@
 
 import React from 'react'
-
-
+import { AiOutlineSearch } from 'react-icons/ai';
 import './HomeStyles.css'
 
 const Home = () => {
@@ -11,23 +10,20 @@ const Home = () => {
     <div className='top'>
     <h1>MUSIC ON DEMAND</h1>
     <h2>FROM YOUR FAVORITE ARTIST</h2>
-
+    </div>
+<div>
+    <form className='form'>
+    <div>
+    <input type="text" placeholder='Search by Artist' />
+    </div>
+    <div>
+    <button><AiOutlineSearch size={40} className="icon"/></button>
+    </div>
+    </form>
     </div>
 
-<div class="wrap">
-    <form action="/" method="get">
-    <label htmlFor="header-search">
-        <span className="visually-hidden"></span>
-    </label>
-    <input
-        type="text"
-        id="header-search"
-        placeholder="Search by artist"
-        name="s" 
-    />
-    <button type="submit">Search</button>
-</form>
-</div>
+
+
     
 
 
