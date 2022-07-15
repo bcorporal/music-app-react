@@ -2,6 +2,25 @@
 import React from 'react'
 import { AiOutlineSearch } from 'react-icons/ai';
 import './HomeStyles.css'
+import axios from 'axios'
+
+
+const getInfo = {
+  method: 'GET',
+  url: 'https://theaudiodb.p.rapidapi.com/searchalbum.php',
+  params: {s: 'drake'},
+  headers: {
+    'X-RapidAPI-Key': '',
+    'X-RapidAPI-Host': 'theaudiodb.p.rapidapi.com'
+  }
+};
+
+axios.request(getInfo).then(function (response) {
+    console.log(response.data);
+}).catch(function (error) {
+    console.error(error);
+});
+
 
 const Home = () => {
   return (
@@ -17,7 +36,7 @@ const Home = () => {
     <input type="text" placeholder='Search by Artist' />
     </div>
     <div>
-    <button><AiOutlineSearch size={40} className="icon"/></button>
+    <button><AiOutlineSearch size={40} className="icon" onClick={getInfo}/></button>
     </div>
     </form>
     </div>

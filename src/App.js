@@ -4,6 +4,7 @@ import Home from './components/home/Home';
 import Music from './components/music/Music';
 import Festivals from './components/festivals/Festivals';
 import Contact from './components/contact/Contact';
+import Axios from './components/Axios';
 
 
 
@@ -11,6 +12,7 @@ import Contact from './components/contact/Contact';
 function App() {
   return (
     <>
+    <Axios />
     <Navbar />
     <Home />
     <Music />
