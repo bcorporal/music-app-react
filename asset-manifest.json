@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/music-app-react/static/css/main.8c8c19fb.css",
+    "main.js": "/music-app-react/static/js/main.efcfce30.js",
+    "static/media/music5.jpg": "/music-app-react/static/media/music5.3a48ef8bdd6d10de9fa6.jpg",
+    "static/media/music4.jpg": "/music-app-react/static/media/music4.d9591edc94ec04a5a46a.jpg",
+    "static/media/music.jpg": "/music-app-react/static/media/music.608d0e4a5f8827b29b95.jpg",
+    "static/media/music2.jpg": "/music-app-react/static/media/music2.b07c484fb42feaa30dbd.jpg",
+    "index.html": "/music-app-react/index.html",
+    "main.8c8c19fb.css.map": "/music-app-react/static/css/main.8c8c19fb.css.map",
+    "main.efcfce30.js.map": "/music-app-react/static/js/main.efcfce30.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c8c19fb.css",
+    "static/js/main.efcfce30.js"
+  ]
+}
